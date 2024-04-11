@@ -1,0 +1,13 @@
+algorithm: model.MGRD.MGRD
+data_path: data/SMAP
+
+algorithm_parameters:
+    dataset: SMAP
+    lr: 0.0001
+    num_epochs: 20
+    batch_size: 128
+    anormly_ratio: 8
+    d_model: 512
+    d_ff: 512
+    k: 6
+    e_layers: 3

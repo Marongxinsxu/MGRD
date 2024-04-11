@@ -1,0 +1,13 @@
+algorithm: model.MGRD.MGRD
+data_path: data/PSM
+
+algorithm_parameters:
+    dataset: PSM
+    lr: 0.0001
+    num_epochs: 20
+    batch_size: 64
+    anormly_ratio: 20
+    d_model: 64
+    d_ff: 64
+    k: 1
+    e_layers: 3
