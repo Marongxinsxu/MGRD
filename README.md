@@ -17,9 +17,15 @@ For the HAI dataset, you can apply for it by following :https://www.kaggle.com/d
 
 
 
-quickly run:
+run:
 
-```python main.py ```
+```python main.py -model_config MGRD_PSM.yaml```
+```python main.py -model_config MGRD_MSL.yaml```
+```python main.py -model_config MGRD_SMD.yaml```
+```python main.py -model_config MGRD_HAI.yaml```
+```python main.py -model_config MGRD_SMAP.yaml```
+```python main.py -model_config MGRD_SWaT.yaml```
+```python main.py -model_config MGRD_WADI.yaml```
 
 ## Cite
 
@@ -27,6 +33,7 @@ Please cite our paper if you use this code in your own work.
 
 
 
+
 ## Report a problem
 
-If you encounter any problem, please contact RongXin Ma by 202122616077@email.sxu.edu.cn
+

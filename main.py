@@ -1,3 +1,6 @@
+import argparse
+import os
+
 import pandas as pd
 import importlib
 from model.dataset import parse_data,split
@@ -6,7 +9,7 @@ import yaml,json
 from seed import set_seed
 
 random_seed = 0
-model_config='MGRD.yaml'
+# model_config='MGRD_MSL.yaml'
 
 
 def enclose_class_name(value):
@@ -92,6 +95,12 @@ def update_parameters(param: dict, to_update: dict) -> dict:
 
 def main():
 
+    parser = argparse.ArgumentParser()
+
+    parser.add_argument('-model_config', help='model_config', default='MGAD_MSL')
+    args = parser.parse_args()
+    model_config = str(args.model_config)
+
     with open(model_config, 'rb') as infile:
         cfg = yaml.safe_load(infile)
 
@@ -122,3 +131,4 @@ def main():
 
 if __name__ == '__main__':
     main()
+
