@@ -4,10 +4,10 @@ data_path: data/SMD
 algorithm_parameters:
     dataset: SMD
     lr: 0.0001
-    num_epochs: 20
-    batch_size: 128
+    num_epochs: 100
+    batch_size: 256
     anormly_ratio: 4
-    d_model: 256
-    d_ff: 256
-    k: 6
+    d_model: 512
+    d_ff: 512
+    k: 3
     e_layers: 3

@@ -4,10 +4,10 @@ data_path: data/WADI
 algorithm_parameters:
     dataset: WADI
     lr: 0.0001
-    num_epochs: 20
-    batch_size: 256
-    anormly_ratio: 10
-    d_model: 64
-    d_ff: 64
-    k: 6
+    num_epochs: 100
+    batch_size: 128
+    anormly_ratio: 5
+    d_model: 256
+    d_ff: 256
+    k: 1
     e_layers: 3
