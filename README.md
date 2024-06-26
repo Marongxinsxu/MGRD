@@ -13,16 +13,13 @@ Our code is based on PyTorch 1.10.0 and runnable for both windows and server. Re
 
 The datasets are all placed in the data directory. \
 For the SWaT and WADI dataset, you can apply for it by following its official tutorial:https://itrust.sutd.edu.sg/itrust-labs_datasets/
-For the HAI dataset, you can apply for it by following :https://www.kaggle.com/datasets/icsdataset/hai-security-dataset/data
 
 
 
 run:
 
-```python main.py -model_config MGRD_PSM.yaml```
 ```python main.py -model_config MGRD_MSL.yaml```
 ```python main.py -model_config MGRD_SMD.yaml```
-```python main.py -model_config MGRD_HAI.yaml```
 ```python main.py -model_config MGRD_SMAP.yaml```
 ```python main.py -model_config MGRD_SWaT.yaml```
 ```python main.py -model_config MGRD_WADI.yaml```
@@ -35,5 +32,4 @@ Please cite our paper if you use this code in your own work.
 
 
 ## Report a problem
-
 
